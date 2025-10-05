@@ -1,7 +1,7 @@
 const http = require("http");
 const fs = require("fs");
 const PORT = provess.env.PORT || 3000;
-const hostName = "127.0.0.1";
+const hostName = "0.0.0.0";
 
 const server = http.createServer((req, res) => {
   const handleReadFile = (statusCode, fileLocation) => {
